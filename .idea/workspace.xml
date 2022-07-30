@@ -22,14 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="953aa0a3-d36f-40ee-a105-b7c56d1a5da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/AbstractUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/Homework3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/Lesson6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/Min.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/NonNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/User6.java" afterDir="false" />
+    <list default="true" id="953aa0a3-d36f-40ee-a105-b7c56d1a5da3" name="Changes" comment="Лекция №6 + дз">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/homework/CarBroken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/homework/GetMetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/homework/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/homework/UserBroken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/homework/UserMeta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson6/Homework3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/homework/Homework3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,13 +74,13 @@
       <recent name="org.example.lesson4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson6">
-    <configuration name="Lesson2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson2.Lesson2" />
+  <component name="RunManager" selected="Application.Homework3">
+    <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson6.homework.Homework3" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson2.*" />
+          <option name="PATTERN" value="org.example.lesson6.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,19 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson6.Lesson6" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.lesson4.Task2" />
       <module name="module2" />
@@ -140,13 +127,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.lesson6.Lesson6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson6.Lesson6" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson6.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lesson6" />
+        <item itemvalue="Application.Homework3" />
+        <item itemvalue="Application.org.example.lesson6.Lesson6" />
         <item itemvalue="Application.Lesson5" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Lesson4" />
-        <item itemvalue="Application.Lesson2" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658496837515</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Лекция №6 + дз">
+      <created>1659018580174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659018580174</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +207,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Лекция №2" />
     <MESSAGE value="Решение дз" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решение дз" />
+    <MESSAGE value="Лекция №6 + дз" />
+    <option name="LAST_COMMIT_MESSAGE" value="Лекция №6 + дз" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
