@@ -1,0 +1,18 @@
+{
+    "people": {
+    "countAnimals": 2,
+    "animals": [
+      {
+        "age": 8
+      },
+      {
+        "age": 9
+      }
+    ],
+    "passportData": {
+      "number": 44444,
+      "seria": 3322332
+    }
+  },
+  "countPeople": 8
+}

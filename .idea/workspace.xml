@@ -23,13 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="953aa0a3-d36f-40ee-a105-b7c56d1a5da3" name="Changes" comment="Лекция №6 + дз">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/homework/CarBroken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/homework/GetMetaData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/homework/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/homework/UserBroken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/homework/UserMeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/file.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson7/tree/Lesson7Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson7/tree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson7/wildcard/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson7/wildcard/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson7/wildcard/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson7/wildcard/Lesson7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson7/wildcard/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson8/JsonHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson8/Lesson8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/user.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson6/Homework3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/homework/Homework3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +68,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.lesson6" />
@@ -74,7 +83,7 @@
       <recent name="org.example.lesson4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework3">
+  <component name="RunManager" selected="Application.Lesson8">
     <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.lesson6.homework.Homework3" />
       <module name="module2" />
@@ -88,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson4.Lesson4" />
+    <configuration name="Lesson10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson8.Lesson10" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson4.*" />
+          <option name="PATTERN" value="org.example.lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson5.Lesson5" />
+    <configuration name="Lesson7Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson7.tree.Lesson7Tree" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson5.*" />
+          <option name="PATTERN" value="org.example.lesson7.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson4.Task2" />
+    <configuration name="Lesson8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson8.Lesson8" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson4.*" />
+          <option name="PATTERN" value="org.example.lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.lesson6.Lesson6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson6.Lesson6" />
+    <configuration name="org.example.lesson7.wildcard.Lesson7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson7.wildcard.Lesson7" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson6.homework.*" />
+          <option name="PATTERN" value="org.example.lesson7.wildcard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson8" />
+        <item itemvalue="Application.Lesson10" />
+        <item itemvalue="Application.Lesson7Tree" />
+        <item itemvalue="Application.org.example.lesson7.wildcard.Lesson7" />
         <item itemvalue="Application.Homework3" />
-        <item itemvalue="Application.org.example.lesson6.Lesson6" />
-        <item itemvalue="Application.Lesson5" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Lesson4" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +231,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/lesson2/MyList.java</url>
           <line>89</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/lesson8/Lesson10.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
